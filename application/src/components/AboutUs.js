@@ -5,7 +5,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 const AboutUs = () => {
   return (
     <div className="container">
-      <h2>About Page</h2>
+      <h2 className='text-center'>About Page</h2>
       <div className="accordion" id="accordionExample">
         <div className="accordion-item">
           <h2 className="accordion-header" id="headingOne">
@@ -27,7 +27,7 @@ const AboutUs = () => {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
-              <strong>Organization: </strong>Sahyadri College of Engineering
+              <strong>Organization: </strong>Sahyadri Travels
             </div>
           </div>
         </div>

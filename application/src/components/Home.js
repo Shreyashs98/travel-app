@@ -19,7 +19,7 @@ const Home = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://travel.usnews.com/dims4/USNEWS/615d5f7/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https%3A%2F%2Ftravel.usnews.com%2Fimages%2FLingxiao_XieGetty_Images_u6g9f3F.jpg"
+            src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_230,q_auto,w_305/v1/filestore/ow16k8n3gykav9x3vop581fi9c68_shutterstock_1308414568.jpg"
             alt="Second slide"
           />
           <Carousel.Caption>
@@ -35,7 +35,7 @@ const Home = () => {
         </Breadcrumb>
         <h2>Welcome to our Travel Website!</h2>
         <Row>
-          <Col sm={4} className="mb-4">
+          <Col sm={12} md={6} lg={4} className="mb-4">
             <Card>
               <Card.Img
                 variant="top"
@@ -43,15 +43,16 @@ const Home = () => {
                 className="card-img"
               />
               <Card.Body>
-                <Card.Title>Destination 1</Card.Title>
+                <Card.Title>Bora Bora Island</Card.Title>
                 <Card.Text>
-                  Explore the beauty of Destination 1 with its mesmerizing landscapes and rich cultural heritage.
+                  
+Bora Bora Island is a breathtaking tropical paradise known for its turquoise waters, white sandy beaches, and luxurious overwater bungalows.
                 </Card.Text>
                 <Button variant="primary">Learn More</Button>
               </Card.Body>
             </Card>
           </Col>
-          <Col sm={4} className="mb-4">
+          <Col sm={12} md={6} lg={4} className="mb-4">
             <Card>
               <Card.Img
                 variant="top"
@@ -59,15 +60,15 @@ const Home = () => {
                 className="card-img"
               />
               <Card.Body>
-                <Card.Title>Destination 2</Card.Title>
+                <Card.Title>Paris</Card.Title>
                 <Card.Text>
-                  Experience the wonders of Destination 2 with its breathtaking natural attractions and vibrant city life.
+                The Eiffel Tower is an iconic symbol of Paris and a masterpiece of engineering, attracting millions of visitors with its elegance and panoramic views.
                 </Card.Text>
                 <Button variant="primary">Learn More</Button>
               </Card.Body>
             </Card>
           </Col>
-          <Col sm={4} className="mb-4">
+          <Col sm={12} md={6} lg={4} className="mb-4">
             <Card>
               <Card.Img
                 variant="top"
@@ -75,9 +76,9 @@ const Home = () => {
                 className="card-img"
               />
               <Card.Body>
-                <Card.Title>Destination 3</Card.Title>
+                <Card.Title>Red Fort</Card.Title>
                 <Card.Text>
-                  Immerse yourself in the charm of Destination 3, known for its serene beaches and delightful cuisine.
+                The Red Fort, a UNESCO World Heritage Site, is an iconic Mughal fortress in Delhi, India, known for its majestic red sandstone walls and intricate architectural details.
                 </Card.Text>
                 <Button variant="primary">Learn More</Button>
               </Card.Body>
